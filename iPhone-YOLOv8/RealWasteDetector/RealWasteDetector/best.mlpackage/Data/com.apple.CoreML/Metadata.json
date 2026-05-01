@@ -1,0 +1,22 @@
+{
+  "MLModelVersionStringKey" : "8.4.41",
+  "MLModelDescriptionKey" : "Ultralytics best model trained on \/Users\/car\/CSUChico\/CSCI611\/yolov8\/realwaste-yolo\/RealWaste\/data.yaml",
+  "MLModelCreatorDefinedKey" : {
+    "batch" : "1",
+    "com.github.apple.coremltools.version" : "9.0",
+    "docs" : "https:\/\/docs.ultralytics.com",
+    "imgsz" : "[640, 640]",
+    "names" : "{0: 'Cardboard', 1: 'Food Organics', 2: 'Glass', 3: 'Metal', 4: 'Miscellaneous Trash', 5: 'Paper', 6: 'Plastic', 7: 'Textile Trash', 8: 'Vegetation'}",
+    "channels" : "3",
+    "com.github.apple.coremltools.conversion_date" : "2026-04-30",
+    "stride" : "32",
+    "args" : "{'batch': 1, 'half': False, 'int8': False, 'dynamic': False, 'nms': False}",
+    "date" : "2026-04-30T19:23:15.294297",
+    "com.github.apple.coremltools.source_dialect" : "TorchScript",
+    "com.github.apple.coremltools.source" : "torch==2.11.0",
+    "task" : "detect",
+    "end2end" : "False"
+  },
+  "MLModelAuthorKey" : "Ultralytics",
+  "MLModelLicenseKey" : "AGPL-3.0 License (https:\/\/ultralytics.com\/license)"
+}
